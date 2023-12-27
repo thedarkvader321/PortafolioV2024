@@ -4,11 +4,11 @@ function CarruselImagen({text}) {
 
     return (
         <Image
-            src="/src/assets/icon.jpg"
+            src="https://en.gundam.info/about-gundam/series-pages/seedfreedom/gseedfreedom/en/product/2023/10/hg_rising_freedom_gundam_01m_en.jpg"
             alt={text}
             style={{
-                width: '500px',
-                height: '500px'
+                width: '100%',
+                height: '100%'
             }} />
     )
 }
