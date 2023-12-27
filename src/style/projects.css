@@ -1,7 +1,9 @@
-body{
-    background-color: black;
-}
 
-h1{
-    color: #fff;
+.title{
+    text-align: center;
+}
+.projects{
+    display: flex;
+    justify-content:space-around;
+
 }
