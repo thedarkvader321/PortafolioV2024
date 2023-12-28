@@ -6,7 +6,7 @@ export const Projects = () => {
   return (
     <>
       <div><NavBar /></div>
-      <h1 className='title'>Funciona</h1>
+      <h1 className='title'>Projects</h1>
       <section>
         <div className='projects'>
           <CardProject

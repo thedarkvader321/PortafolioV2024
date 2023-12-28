@@ -10,11 +10,11 @@ export const NavBar = () => {
         <>
             <Navbar bg="dark" data-bs-theme="dark">
                 <Container>
-                    <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                    <Navbar.Brand href="#home">Nicolas Munoz</Navbar.Brand>
                     <Nav className="me-auto">
                         <Nav.Link href="">Home</Nav.Link>
-                        <Nav.Link href="" onClick={()=> navigate('/src/pages/Projects.jsx')}>Proyects</Nav.Link>
-                        <Nav.Link href="#About">About</Nav.Link>
+                        <Nav.Link href="" onClick={()=> navigate('/src/pages/Projects.jsx')}>Projects</Nav.Link>
+                        <Nav.Link href="#About">Contact</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
