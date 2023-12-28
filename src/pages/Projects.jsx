@@ -7,24 +7,42 @@ export const Projects = () => {
     <>
       <div><NavBar /></div>
       <h1 className='title'>Projects</h1>
-      <section>
-        <div className='projects'>
-          <CardProject
-            imgUrl="https://drive.google.com/uc?export=view&id=1S0bHkU4Br2jFW6ATnWvMekCkcRMavYnW"
-            title="Tic-Tac"
-            text="Some quick example text for card 1"
-          />
-          <CardProject
-            imgUrl="https://drive.google.com/uc?export=view&id=1S0bHkU4Br2jFW6ATnWvMekCkcRMavYnW"
-            title="Tic-Tac"
-            text="Some quick example text for card 1"
-          />
-          <CardProject
-            imgUrl="https://drive.google.com/uc?export=view&id=1S0bHkU4Br2jFW6ATnWvMekCkcRMavYnW"
-            title="Tic-Tac"
-            text="Some quick example text for card 1"
-          />
-        </div>
+      <section className='projects-container'>
+        <CardProject
+          imgUrl="https://drive.google.com/uc?export=view&id=1S0bHkU4Br2jFW6ATnWvMekCkcRMavYnW"
+          title="Tic-Tac"
+          text="Some quick example text for card 1"
+        />
+        <CardProject
+          imgUrl="https://drive.google.com/uc?export=view&id=1S0bHkU4Br2jFW6ATnWvMekCkcRMavYnW"
+          title="Tic-Tac"
+          text="Some quick example text for card 1"
+        />
+        <CardProject
+          imgUrl="https://drive.google.com/uc?export=view&id=1S0bHkU4Br2jFW6ATnWvMekCkcRMavYnW"
+          title="Tic-Tac"
+          text="Some quick example text for card 1"
+        />
+        <CardProject
+          imgUrl="https://drive.google.com/uc?export=view&id=1S0bHkU4Br2jFW6ATnWvMekCkcRMavYnW"
+          title="Tic-Tac"
+          text="Some quick example text for card 1"
+        />
+        <CardProject
+          imgUrl="https://drive.google.com/uc?export=view&id=1S0bHkU4Br2jFW6ATnWvMekCkcRMavYnW"
+          title="Tic-Tac"
+          text="Some quick example text for card 1"
+        />
+        <CardProject
+          imgUrl="https://drive.google.com/uc?export=view&id=1S0bHkU4Br2jFW6ATnWvMekCkcRMavYnW"
+          title="Tic-Tac"
+          text="Some quick example text for card 1"
+        />
+        <CardProject
+          imgUrl="https://drive.google.com/uc?export=view&id=1S0bHkU4Br2jFW6ATnWvMekCkcRMavYnW"
+          title="Tic-Tac"
+          text="Some quick example text for card 1"
+        />
       </section>
     </>
 
