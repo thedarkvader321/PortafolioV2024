@@ -10,27 +10,27 @@ export const Home = () => {
         <NavBar />
       </div>
       <section id="inicio" class="inicio">
-        <div class="contenido-banner">
-          <div class="contenido-img">
+        <div className="contenido-banner">
+          <div className="contenido-img">
             <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/7802931/computer-icon-clipart-md.png" alt="" />
           </div>
           <h1>NICOLAS MUÑOZ</h1>
           <h2>Ingeniero en Informatica</h2>
-          <div class="redes">
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <div className="redes">
+            <a href="#"><i className="fa-brands fa-facebook"></i></a>
           </div>
         </div>
       </section>
-      <section id="sobremi" class="sobremi">
-        <div class="contenido-seccion">
+      <section id="sobremi" className="sobremi">
+        <div className="contenido-seccion">
           <h2>Sobre mi</h2>
           <p><span>Hola, soy Nicolas Muñoz.</span>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Impedit saepe accusamus dicta odit quam vero placeat corporis, voluptates,
             repellat est ipsam distinctio rem. Ea, maiores vel. Dignissimos ab unde hic.</p>
 
-          <div class="fila">
+          <div className="fila">
             {/**Datos personales  */}
-            <div class="col">
+            <div className="col">
               <ul>
                 <li>
                   <strong>Fecha de nacimiento</strong>
@@ -47,16 +47,16 @@ export const Home = () => {
               </ul>
             </div>
             {/**<!-- intereses -->*/}
-            <div class="col">
+            <div className="col">
               <h3>Intereses</h3>
-              <div class="contenedor-intereses">
-                <div class="intereses">
+              <div className="contenedor-intereses">
+                <div className="intereses">
                   <i></i>
                   <span>Juegos</span>
                 </div>
               </div>
-              <div class="contenedor-intereses">
-                <div class="intereses">
+              <div className="contenedor-intereses">
+                <div className="intereses">
                   <i></i>
                   <span>Deportes</span>
                 </div>
@@ -65,7 +65,7 @@ export const Home = () => {
           </div>
           <button>
             Descargar CV
-            <span class="overlay"></span>
+            <span className="overlay"></span>
           </button>
         </div>
       </section>

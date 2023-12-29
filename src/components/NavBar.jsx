@@ -12,9 +12,9 @@ export const NavBar = () => {
                 <Container>
                     <Navbar.Brand href="#home">Nicolas Munoz</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="">Home</Nav.Link>
+                        <Nav.Link href="" onClick={()=> navigate('/src/pages/Home.jsx')}>Home</Nav.Link>
                         <Nav.Link href="" onClick={()=> navigate('/src/pages/Projects.jsx')}>Projects</Nav.Link>
-                        <Nav.Link href="#About">Contact</Nav.Link>
+                        <Nav.Link href="" onClick={()=> navigate('/src/pages/Contact.jsx')}>Contact</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

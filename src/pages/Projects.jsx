@@ -5,7 +5,7 @@ import '../style/projects.css'
 export const Projects = () => {
   return (
     <>
-      <div><NavBar /></div>
+      <NavBar />
       <h1 className='title'>Projects</h1>
       <section className='projects-container'>
         <CardProject
