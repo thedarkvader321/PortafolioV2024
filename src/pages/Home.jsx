@@ -9,7 +9,7 @@ export const Home = () => {
       <div>
         <NavBar />
       </div>
-      <section id="inicio" class="inicio">
+      <section id="inicio" className="inicio">
         <div className="contenido-banner">
           <div className="contenido-img">
             <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/7802931/computer-icon-clipart-md.png" alt="" />
