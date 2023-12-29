@@ -8,6 +8,10 @@ import { Projects } from './pages/Projects';
 import { Contact } from './pages/Contact';
 
 
+import './style/projects.css';
+import './style/contact.css';
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 // Export App as a named export (not a default export)
