@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { useNavigate } from 'react-router';
 
+
 export const NavBar = () => {
     const navigate = useNavigate()
     return (
@@ -12,9 +13,9 @@ export const NavBar = () => {
                 <Container>
                     <Navbar.Brand href="#home">Nicolas Munoz</Navbar.Brand>
                     <Nav className="me-auto">
-                        <Nav.Link href="" onClick={()=> navigate('/src/pages/Home.jsx')}>Home</Nav.Link>
-                        <Nav.Link href="" onClick={()=> navigate('/src/pages/Projects.jsx')}>Projects</Nav.Link>
-                        <Nav.Link href="" onClick={()=> navigate('/src/pages/Contact.jsx')}>Contact</Nav.Link>
+                        <Nav.Link href=""onClick={() => navigate('/')}>Home</Nav.Link>
+                        <Nav.Link href="/Projects" >Projects</Nav.Link>
+                        <Nav.Link href="/Contact" >Contact</Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>

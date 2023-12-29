@@ -9,10 +9,10 @@ export const CardProject = ({imgUrl,title, text, link}) => {
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>
                     <Card.Text>
-                        {link ?(
-                            <a href={link} style={{ textDecoration: 'none', color: 'GrayText' }}></a>
-                        ):(
-                            text
+                        {link &&(
+                            <a href={link} style={{ textDecoration: 'none', color: 'GrayText' }}>
+                                {text}
+                            </a>
                         )}
                     </Card.Text>
                 </Card.Body>

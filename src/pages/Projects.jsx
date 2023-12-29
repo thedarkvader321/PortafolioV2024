@@ -12,6 +12,7 @@ export const Projects = () => {
           imgUrl="https://drive.google.com/uc?export=view&id=1S0bHkU4Br2jFW6ATnWvMekCkcRMavYnW"
           title="Tic-Tac"
           text="Some quick example text for card 1"
+          link="https://demotictac.netlify.app/"
         />
         <CardProject
           imgUrl="https://drive.google.com/uc?export=view&id=1S0bHkU4Br2jFW6ATnWvMekCkcRMavYnW"
