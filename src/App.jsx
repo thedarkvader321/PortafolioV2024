@@ -12,7 +12,6 @@ import './style/Contact.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-// Export App as a named export (not a default export)
 export const App = () => {
   return (
     <BrowserRouter>
@@ -25,5 +24,4 @@ export const App = () => {
   );
 };
 
-// Render App after defining it
 root.render(<App />);
