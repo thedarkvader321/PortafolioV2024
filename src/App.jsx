@@ -7,8 +7,6 @@ import { Home } from './pages/Home';
 import { Projects } from './pages/Projects';
 import { Contact } from './pages/Contact';
 
-import './style/Projects.css';
-import './style/Contact.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
