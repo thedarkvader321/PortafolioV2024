@@ -2,6 +2,7 @@ import React from 'react'
 import { CardProject } from '../components/CardProject'
 import { NavBar } from '../components/NavBar'
 import '../style/projects.css'
+import { Footer } from '../components/Footer'
 export const Projects = () => {
   return (
     <>
@@ -45,6 +46,7 @@ export const Projects = () => {
           text="Some quick example text for card 1"
         />
       </section>
+      <Footer/>
     </>
 
   )

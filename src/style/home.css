@@ -121,7 +121,7 @@
 }
 
 .sobremi .fila .col .contenedor-intereses{
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
 }
 
@@ -132,9 +132,9 @@
     border-radius: 10px;
     margin: 0 15px 15px 0;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
     transition: .3s;
 }
 
@@ -175,4 +175,14 @@
 
 .sobremi button:hover .overlay{
     width: 100%;
+}
+
+
+@media screen and (max-width:700px) {
+    .sobremi .fila{
+        display: block;
+    }
+    .sobremi .fila .col{
+        width: fit-content;
+    }
 }

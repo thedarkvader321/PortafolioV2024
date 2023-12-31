@@ -15,7 +15,7 @@ export const NavBar = () => {
                     <Nav className="me-auto">
                         <Nav.Link onClick={() => navigate('/')}>Home</Nav.Link>
                         <Nav.Link onClick={() => navigate('/Projects')}>Projects</Nav.Link>
-                        <Nav.Link onClick={() => navigate('/Contact')}>Contact</Nav.Link>
+                        {/*<Nav.Link onClick={() => navigate('/Contact')}>Contact</Nav.Link>*/}
                     </Nav>
                 </Container>
             </Navbar>
