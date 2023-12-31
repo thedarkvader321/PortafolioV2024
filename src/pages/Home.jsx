@@ -20,7 +20,7 @@ export const Home = () => {
       <section id="inicio" className="inicio">
         <div className="contenido-banner">
           <div className="contenido-img">
-            <img src="https://creazilla-store.fra1.digitaloceanspaces.com/cliparts/7802931/computer-icon-clipart-md.png" alt="" />
+            <img src="https://cdn-icons-png.flaticon.com/512/3067/3067287.png" alt="" />
           </div>
           <h1>NICOLAS MUÑOZ</h1>
           <h2>Ingeniero en Informatica</h2>
