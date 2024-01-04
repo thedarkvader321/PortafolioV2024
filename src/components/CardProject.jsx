@@ -4,8 +4,8 @@ import { Card } from 'react-bootstrap'
 export const CardProject = ({imgUrl,title, text, link}) => {
     return (
         <>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src={imgUrl} />
+            <Card style={{ width: '18rem', height:'25rem' }}>
+                <Card.Img variant="top" src={imgUrl} style={{height: '10rem'}} />
                 <Card.Body>
                     <Card.Title>{title}</Card.Title>
                     <Card.Text>
