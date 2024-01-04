@@ -10,7 +10,6 @@ import CarruselImagen from './CarruselImagen';
           <Carousel.Item key={product.id}>
             <CarruselImagen text={product.name} src={product.imgUrl}/>
             <Carousel.Caption>
-              <h3>{product.name}</h3>
             </Carousel.Caption>
           </Carousel.Item>
         ))}

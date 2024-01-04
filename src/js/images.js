@@ -1,15 +1,14 @@
 
-
 const images = [
     {
     id:1,
     name: "image1",
-    imgUrl:"https://media.vandal.net/i/640x360/10-2023/18/202310182225437_2.jpg"
+    imgUrl:"https://drive.google.com/uc?export=view&id=1gyIsO9dbpdTYrpNgLQWJreFpvLQTvGhC"
     },
     {
      id:2,
      name:"image2",
-     imgUrl:"https://www.egames.news/__export/1676144512728/sites/debate/img/2023/02/11/sonic-origins-1.jpg_423682103.jpg"   
+     imgUrl:"https://img.freepik.com/premium-vector/software-development-web-coding-laptop-programming-concept-website-design-coding-remote-work-home_3482-5615.jpg"   
     }
 ]
 

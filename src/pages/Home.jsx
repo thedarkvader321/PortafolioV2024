@@ -1,13 +1,14 @@
 import React from 'react'
 import "../style/home.css"
 import { NavBar } from '../components/NavBar'
-import { FaFacebookF } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
+import {CarruselFinal} from '../components/CarruselFinal'
+import { FaFacebookF,FaPython,FaLinkedin,FaInstagramSquare,FaBookReader,FaReact,FaWordpress } from "react-icons/fa";
 import { CgGames } from "react-icons/cg";
 import { MdOutlineSportsBasketball } from "react-icons/md";
 import { FaComputer } from "react-icons/fa6";
-import { FaBookReader } from "react-icons/fa";
+import { SiKotlin } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io";
+import { DiDjango } from "react-icons/di";
 import { Footer } from '../components/Footer';
 
 
@@ -17,6 +18,9 @@ export const Home = () => {
       <div>
         <NavBar />
       </div>
+      <section className='carruesel'>
+        <CarruselFinal/>
+      </section>
       <section id="inicio" className="inicio">
         <div className="contenido-banner">
           <div className="contenido-img">
@@ -81,6 +85,45 @@ export const Home = () => {
                 <div className="intereses">
                   <i><FaBookReader /></i>
                   <span>Leer</span>
+                </div>
+              </div>
+            </div>
+            <div className="col">
+              <h3>Tecnologias</h3>
+              <div className="contenedor-intereses">
+                <div className="intereses">
+                  <i><IoLogoJavascript /></i>
+                  <span>Javscript</span>
+                </div>
+              </div>
+              <div className="contenedor-intereses">
+                <div className="intereses">
+                  <i><SiKotlin /></i>
+                  <span>kotlin</span>
+                </div>
+              </div>
+              <div className="contenedor-intereses">
+                <div className="intereses">
+                  <i><FaPython /></i>
+                  <span>Python</span>
+                </div>
+              </div>
+              <div className="contenedor-intereses">
+                <div className="intereses">
+                  <i><DiDjango /></i>
+                  <span>Django</span>
+                </div>
+              </div>
+              <div className="contenedor-intereses">
+                <div className="intereses">
+                  <i><FaReact /></i>
+                  <span>React</span>
+                </div>
+              </div>
+              <div className="contenedor-intereses">
+                <div className="intereses">
+                  <i><FaWordpress /></i>
+                  <span>Wordpress</span>
                 </div>
               </div>
             </div>
