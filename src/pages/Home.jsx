@@ -1,8 +1,9 @@
 import React from 'react'
 import "../style/home.css"
 import { NavBar } from '../components/NavBar'
-import {CarruselFinal} from '../components/CarruselFinal'
-import { FaFacebookF,FaPython,FaLinkedin,FaInstagramSquare,FaBookReader,FaReact,FaWordpress } from "react-icons/fa";
+import { CardProject } from '../components/CardProject'
+import { CarruselFinal } from '../components/CarruselFinal'
+import { FaFacebookF, FaPython, FaLinkedin, FaInstagramSquare, FaBookReader, FaReact, FaWordpress } from "react-icons/fa";
 import { CgGames } from "react-icons/cg";
 import { MdOutlineSportsBasketball } from "react-icons/md";
 import { FaComputer } from "react-icons/fa6";
@@ -10,6 +11,7 @@ import { SiKotlin } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { DiDjango } from "react-icons/di";
 import { Footer } from '../components/Footer';
+import { Link } from 'react-router-dom';
 
 
 export const Home = () => {
@@ -19,7 +21,7 @@ export const Home = () => {
         <NavBar />
       </div>
       <section className='carruesel'>
-        <CarruselFinal/>
+        <CarruselFinal />
       </section>
       <section id="inicio" className="inicio">
         <div className="contenido-banner">
@@ -129,12 +131,38 @@ export const Home = () => {
             </div>
           </div>
           <button>
-            Descargar CV
+            CURRICULUM
             <span className="overlay"></span>
           </button>
         </div>
       </section>
-        <Footer />
+
+      <section className='projects-container'>
+        <h3 className='tittle-projects'>Algunos Proyectos</h3>
+        <div className='galeria'>
+          <CardProject
+            imgUrl="https://drive.google.com/uc?export=view&id=1S0bHkU4Br2jFW6ATnWvMekCkcRMavYnW"
+            title="Tic-Tac"
+            text="Some quick example text for card 1"
+            link="https://demotictac.netlify.app/"
+          />
+          <CardProject
+            imgUrl="https://drive.google.com/uc?export=view&id=1mEMqs48YEtTpgmpIW4viaO7tP0YxBTk4"
+            title="Games wiki"
+            text="Sitio creado mediante react para dar informacion de diversos generos de videojuegos(En proceso)"
+            link="https://cozy-jelly-ffee42.netlify.app/"
+          />
+        </div>
+        <div className="btn-container">
+          <Link to="/Projects">
+            <button className='btn-projects'>
+              MAS PROYECTOS
+              <span className="overlay"></span>
+            </button>
+          </Link>
+        </div>
+      </section>
+      <Footer />
     </>
   )
 }
