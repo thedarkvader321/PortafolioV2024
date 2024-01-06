@@ -233,6 +233,7 @@
   margin-bottom: 20px; /* Espacio entre los elementos de la galería */
   cursor: pointer;
 }
+
 .btn-container {
   margin-bottom: 35px; /* Ajusta el margin-bottom para crear espacio entre el botón y el footer */
 }
@@ -250,6 +251,7 @@
   color: #fff;
   position: relative;
   z-index: 10;
+  text-decoration: none;
 }
 
 .btn-projects .overlay {
@@ -271,5 +273,13 @@
   .projects-container {
     height: auto; /* Ajusta la altura automáticamente según el contenido */
     padding: 20px; /* Añade espacio alrededor del contenido */
+  }
+
+  .galeria > * {
+    max-width: calc(100% - 20px); /* Ajusta el ancho al 100% en pantallas más pequeñas */
+  }
+
+  .btn-container {
+    margin-bottom: 20px; /* Ajusta el margin-bottom para crear espacio entre el botón y el footer en pantallas más pequeñas */
   }
 }
