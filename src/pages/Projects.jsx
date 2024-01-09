@@ -33,11 +33,12 @@ export const Projects = () => {
           text="Ejemplo de animacion de un menu de navegacion"
           link="https://thedarkvader321.github.io/animacion-de-navegacion-giratoria/"
         />
-        {/*<CardProject
-          imgUrl="https://drive.google.com/uc?export=view&id=1S0bHkU4Br2jFW6ATnWvMekCkcRMavYnW"
-          title="Tic-Tac"
-          text="Some quick example text for card 1"
-  />*/}
+        <CardProject
+          imgUrl="https://drive.google.com/uc?export=view&id=1ktkxmnBCvjKYSMh29fJ0PEjJv1PdSCbd"
+          title="Formulario"
+          text="Ejemplo de formulario realizado con HTML y CSS(no es funcional solo visual)"
+          link="https://thedarkvader321.github.io/Formulario/"
+        />
         {/*<CardProject
           imgUrl="https://drive.google.com/uc?export=view&id=1S0bHkU4Br2jFW6ATnWvMekCkcRMavYnW"
           title="Tic-Tac"
